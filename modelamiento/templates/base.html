@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+
+<body>
+    
+    <div class="border-bottom bg-info">
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+                <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <p class="mb-0 fs-4 fw-bold">Inicio</p>
+                </a>
+    
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li>
+                        <a href="/datos" class="nav-link px-2 link-dark">
+                            Datos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/analisis" class="nav-link px-2 link-dark">
+                            Análisis de los datos
+                        </a>
+                    </li>
+                    <li class="dropdown d-flex align-items-center">
+                        <a class="dropdown-toggle text-decoration-none text-black mx-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Generadores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/cuadradosMedios">
+                                    Cuadrados Medios
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/congruenciaLineal">
+                                    Congruencial Lineal
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/congruencialMultiplicativo">
+                                    Congruencial Multiplicativo
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown d-flex align-items-center">
+                        <a class="dropdown-toggle text-decoration-none text-black mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Regresiones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/regresionLineal">
+                                    Regresión Lineal
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/regresionCuadratica">
+                                    Regresión Cuadrática
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+    
+                <div class="col-md-3 text-end">
+                    <div class="dropdown">
+                        <a class="btn bg-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Opciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="/promedioMovil">
+                                    Promedio móvil
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/suavizacionExponencial">
+                                    Suavización exponencial
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/inventario">
+                                    Inventario
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/banco">
+                                    Simulación
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/sistemaMontecarlo">
+                                    Sistema Montecarlo
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+
+</html>

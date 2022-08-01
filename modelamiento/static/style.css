@@ -1,0 +1,24 @@
+.btn{
+    padding: 5px 40px !important;
+}
+
+.btn1:hover {
+    background-color: #112B3C !important;
+}
+
+.btn2:hover {
+    background-color: #F66B0E !important;
+}
+
+.alert1{
+    background-color: #205375 !important;
+}
+
+.card{
+    color: black;
+}
+
+body {
+    /* background-color: #E1E5EA; */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1368%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient1369)'%3e%3c/rect%3e%3cpath d='M1921.173%2c1240.543C1988.383%2c1244.838%2c2051.896%2c1208.644%2c2087.22%2c1151.305C2124.389%2c1090.971%2c2131.76%2c1015.646%2c2098.158%2c953.255C2062.833%2c887.665%2c1995.61%2c839.973%2c1921.173%2c842.994C1850.738%2c845.853%2c1796.882%2c902.629%2c1767.437%2c966.678C1742.543%2c1020.829%2c1759.044%2c1080.229%2c1788.218%2c1132.199C1818.212%2c1185.63%2c1860.024%2c1236.636%2c1921.173%2c1240.543' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M460.612%2c743.553C550.958%2c742.256%2c624.394%2c679.494%2c669.751%2c601.348C715.32%2c522.836%2c739.169%2c424.483%2c690.15%2c348.078C643.699%2c275.676%2c546.553%2c271.631%2c460.612%2c275.366C382.989%2c278.74%2c306.094%2c301.841%2c263.215%2c366.634C215.518%2c438.708%2c200.709%2c530.943%2c240.806%2c607.506C283.653%2c689.319%2c368.268%2c744.879%2c460.612%2c743.553' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M599.773%2c750.154C689.482%2c753.437%2c775.766%2c709.341%2c821.612%2c632.162C868.416%2c553.369%2c870.645%2c453.462%2c822.239%2c375.642C776.204%2c301.633%2c686.931%2c275.484%2c599.773%2c275.521C512.694%2c275.558%2c420.891%2c300.256%2c377.634%2c375.831C334.59%2c451.035%2c360.159%2c542.375%2c404.381%2c616.892C447.503%2c689.557%2c515.333%2c747.064%2c599.773%2c750.154' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1994.203%2c1185.879C2094.891%2c1188.023%2c2206.88%2c1180.766%2c2261.42%2c1096.101C2319.322%2c1006.217%2c2304.751%2c885.643%2c2244.517%2c797.304C2190.765%2c718.472%2c2089.568%2c707.257%2c1994.203%2c704.204C1890.693%2c700.891%2c1771.042%2c693.571%2c1714.504%2c780.339C1654.741%2c872.056%2c1683.842%2c995.012%2c1745.994%2c1085.127C1800.33%2c1163.91%2c1898.521%2c1183.842%2c1994.203%2c1185.879' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1149.245%2c302.346C1203.636%2c298.319%2c1243.819%2c256.445%2c1269.534%2c208.348C1293.548%2c163.433%2c1299.632%2c110.852%2c1275.652%2c65.918C1250.219%2c18.261%2c1203.261%2c-17.601%2c1149.245%2c-17.048C1096.02%2c-16.504%2c1055.718%2c23.49%2c1027.24%2c68.459C995.926%2c117.906%2c966.495%2c176.889%2c993.564%2c228.781C1022.015%2c283.322%2c1087.897%2c306.888%2c1149.245%2c302.346' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1368'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1369'%3e%3cstop stop-color='rgba(255%2c 160%2c 105%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(142%2c 142%2c 142%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
